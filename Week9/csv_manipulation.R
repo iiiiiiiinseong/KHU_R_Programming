@@ -9,7 +9,7 @@ getwd()
 
 # Set working directory to use relative path
 # Replace the path below with your local path
-setwd('/Users/jparkgeo/Documents/GitHub/KHU_R_Programming/Week9')
+setwd('/Users/insung/Documents/GitHub/KHU_R_Programming/Week9')
 
 # Read CSV file
 seoul.temp <- read.csv('./data/seoul_temp_precip.csv')
@@ -40,6 +40,7 @@ ggplot(data=temp_aug, mapping=aes(x=year, y=temperature)) +
   ggtitle('August Tempeature (1954-2023)')
 
 
+print("장기호 바보")
 ### Boxplot ###
 # Conventional Boxplot
 boxplot(temperature~month, 
